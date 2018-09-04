@@ -22,9 +22,21 @@ body {
   height: 58px;
 }
 @media (max-width: 600px) {
-  .nav-wrapper .brand-logo img {
-    height: 48px;
-  }
+	.nav-wrapper .brand-logo img {
+		height: 48px;
+	}
+	.carousel{
+		height:25vh;
+	}
+	.carousel-item img{
+		margin-top: 15vh;
+	}
+}
+
+@media (min-width: 601 px){
+	.largura-responsiva{
+		width:25vw;
+	}
 }
 
 .footer-fixed{
